@@ -1,0 +1,283 @@
+body {
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.frame {
+  width: 500px;
+  height: 520px;
+  background-color: #0b0b0b;
+  opacity: 95%;
+  border-radius: 15px;
+  border: 2px solid #222222;
+  scale: 0%;
+  transition: all 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 10%;
+  overflow: hidden;
+  transform:
+    perspective(70em)
+    rotateX(4deg)
+    rotateY(-24deg)
+    rotateZ(4deg);
+}
+
+.frame:hover {
+  scale: 110%;
+  opacity: 100%;
+  overflow: hidden;
+  transform:
+    perspective(100em)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg);
+}
+
+footer {
+  color: white;
+  font-family: "Cascadia Code";
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.pfp {
+  scale: 70%;
+  padding: 0px 180px;
+  overflow: hidden;
+}
+
+.name {
+  font-family: "Cascadia Code";
+  color: white;
+  font-size: 25px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(41%, -25%);
+  transition: all 0.5s
+}
+
+.discord_name {
+  font-family: "Cascadia Code";
+  color: grey;
+  font-size: 15px;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(42%, -120%);
+  transition: all 0.5s
+}
+
+.discord {
+  width: 400px;
+  height: 100px;
+  background-color: #0b0b0b;
+  border-radius: 10px;
+  border: 2px solid #222222;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%, -35%);
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.server {
+  width: 400px;
+  height: 100px;
+  background-color: #0b0b0b;
+  border-radius: 10px;
+  border: 2px solid #222222;
+  top: 75%;
+  left: 75%;
+  transform: translate(10%, -45%);
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.square_img {
+  position: relative;
+  scale: 110%;
+  border-radius: 10px;
+  top: 0%;
+  left: 0%;
+  transform: translate(15%, 15%);
+  overflow: hidden;
+}
+
+.dc_name {
+  font-family: "Cascadia Code";
+  color: white;
+  font-size: 20px;
+  top: -50%;
+  left: 0%;
+  transform: translate(25%, -320%);
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.dc_pronouns {
+  font-family: "Cascadia Code";
+  color: grey;
+  font-size: 17px;
+  top: 0%;
+  left: 0%;
+  transform: translate(25%, -470%);
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.dc_profile {
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 7px 25px;
+  background-color: #141414;
+  border: 2px solid #222222;
+  color: white;
+  transition: all 0.5s;
+  top: 0%;
+  left: 0%;
+  transform: translate(350%, -310%);
+}
+
+.dc_profile:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  transform: translate(350%, -330%);
+}
+
+.server_img {
+    top: 0%;
+  left: 0%;
+  transform: translate(-565%, -567%);
+  scale: 8%;
+  border-radius: 150px;
+  overflow: hidden;
+}
+
+.server_name {
+  font-size: 20px;
+  top: 0%;
+  left: 0%;
+  transform: translate(29%, -647%);
+  font-family: "Cascadia Code";
+  color: white;
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.server_info {
+  font-size: 17px;
+  top: 0%;
+  left: 0%;
+  transform: translate(29%, -845%);
+  font-family: "Cascadia Code";
+  color: grey;
+  overflow: hidden;
+  transition: all 0.5s
+}
+
+.join_server {
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, 0%);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 7px 25px;
+  background-color: #141414;
+  border: 2px solid #222222;
+  color: white;
+  transition: all 0.5s;
+  top: 0%;
+  left: 0%;
+  transform: translate(420%, -650%);
+}
+
+.join_server:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  transform: translate(420%, -670%);
+}
+
+
+.name:hover {
+  color: #999999;
+}
+
+.discord_name:hover {
+  color: #444444;
+}
+
+.dc_name:hover {
+  color: #999999;
+}
+
+.dc_pronouns:hover {
+  color: #444444;
+}
+
+.server_name:hover {
+  color: #999999;
+}
+
+.server_info:hover {
+  color: #444444;
+}
+
+.discord:hover {
+  background-color: #191919;
+}
+
+.server:hover {
+  background-color: #191919;
+}
+
+footer {
+  color: white;
+  transition: all 0.5s
+}
+
+footer:hover {
+  color: #999999;
+}
+
+.music_button {
+  z-index: 3;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 30px 50px;
+  background-color: rgb(0 0 0 / 30%);
+  border: none;
+  color: white;
+  transition: all 0.5s;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(10px);
+  font-size: 17px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.original {
+  transform: translate(0%, -150%);
+}
+
+.original {
+  cursor: pointer;
+}

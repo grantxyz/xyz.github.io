@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <title>granted</title>
+    <link rel="shortcut icon" href="https://i.imghippo.com/files/qwtY8438bEo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <script>
+      function music() {
+        var audio = new Audio('music.mp3');
+        audio.play();
+        document.getElementById("clck").remove();
+        document.getElementById("element").style.scale = "85%";
+      }
+    </script>
+    <body>
+      <button class="music_button" onclick="music()" id="clck">clck</button>
+      <div class="frame" id="element">
+        <img src="pfp.png" class="pfp">
+        <div class="name">
+          <p>Granted</p>
+        </div>
+        <div class="discord_name">
+          <p>granted.gg</p>
+        </div>
+        <div class="discord">
+          <img src="pfp_square.png" class="square_img">
+          <p class="dc_name">granted.gg</p>
+          <p class="dc_pronouns">My discord</p>
+        </div>
+        <button class="dc_profile" onclick="location.href='http://discord.com/users/1319430516012748931'">Profile</button>
+        <div class="server">
+          <img src="server_img.png" class="server_img">
+        </div>
+        <p class="server_name">PRIME NEXUS</p>
+        <p class="server_info">Discord server</p>
+        <button class="join_server" onclick="location.href='https://discord.gg/QQxJQvMcQv'">Join</button>
+      </div>
+      <footer>
+        <a onclick="location.href='https://fr-birdit.github.io/forreal/aboutme.html'" class="original">github.com/cursed-blip | fr-birdit.github.io</a>
+      </footer>
+    </body>
+  </head>
+</html>
